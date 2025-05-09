@@ -503,13 +503,6 @@ public final class LineageSettings {
         public static final String QS_SHOW_BRIGHTNESS_SLIDER = "qs_show_brightness_slider";
 
         /**
-         * Whether to control brightness from status bar
-         *
-         * @hide
-         */
-        public static final String STATUS_BAR_BRIGHTNESS_CONTROL = "status_bar_brightness_control";
-
-        /**
          * Whether or not volume button music controls should be enabled to seek media tracks
          * @hide
          */
@@ -686,7 +679,6 @@ public final class LineageSettings {
                 LineageSettings.System.SHOW_ALARM_ICON,
                 LineageSettings.System.STATUS_BAR_IME_SWITCHER,
                 LineageSettings.System.QS_SHOW_BRIGHTNESS_SLIDER,
-                LineageSettings.System.STATUS_BAR_BRIGHTNESS_CONTROL,
                 LineageSettings.System.VOLBTN_MUSIC_CONTROLS,
                 LineageSettings.System.SWAP_VOLUME_KEYS_ON_ROTATION,
                 LineageSettings.System.USE_EDGE_SERVICE_FOR_GESTURES,
